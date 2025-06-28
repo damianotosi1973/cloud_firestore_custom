@@ -1,0 +1,16 @@
+name: cloud_firestore_custom
+description: A custom Firestore plugin with iOS podspec
+version: 0.0.1
+homepage: https://github.com/damianotosi1973/cloud_firestore_custom
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.cloud_firestore_custom
+        pluginClass: CloudFirestoreCustomPlugin
+      ios:
+        pluginClass: CloudFirestoreCustomPlugin
